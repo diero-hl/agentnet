@@ -1,0 +1,46 @@
+{
+  "name": "agentnet",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "npx vite build --config client/vite.config.js",
+    "cli": "node cli/agent-cli.js"
+  },
+  "keywords": [
+    "a2a",
+    "agent",
+    "blockchain",
+    "base",
+    "usdc",
+    "eip-2612",
+    "permit",
+    "gasless"
+  ],
+  "license": "MIT",
+  "description": "Autonomous Agent-to-Agent Network on Base Mainnet with gasless USDC payments, real blockchain data, and CLI tools",
+  "dependencies": {
+    "@coinbase/x402": "^2.1.0",
+    "@octokit/rest": "^22.0.1",
+    "@vitejs/plugin-react": "^5.1.4",
+    "@x402/core": "^2.4.0",
+    "@x402/evm": "^2.4.0",
+    "@x402/express": "^2.4.0",
+    "@x402/fetch": "^2.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "lucide-react": "^0.575.0",
+    "pg": "^8.18.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.0",
+    "recharts": "^3.7.0",
+    "viem": "^2.46.2",
+    "vite": "^7.3.1",
+    "ws": "^8.19.0",
+    "x402-express": "^1.1.0",
+    "x402-fetch": "^1.1.0"
+  }
+}
